@@ -11,9 +11,12 @@
   font-family: "Poppins", serif;
   color: rgb(62, 62, 62);
 }
+.primary-width {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 /* banner styles */
 .banner {
-  max-width: 1200px;
   height: auto;
   margin: 0 auto;
   display: flex;
@@ -93,4 +96,26 @@
   .btn-primary {
     width: 50%;
   }
+}
+
+/*Mission section styles  */
+.mission-title {
+  font-size: 2.8rem;
+  text-align: center;
+  color: rgb(19, 16, 58);
+}
+.title-2025 {
+  color: rgb(255, 173, 90);
+}
+.mission-container {
+  margin: 0 auto;
+}
+.card-image {
+  width: 100%;
+}
+.card-content {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
