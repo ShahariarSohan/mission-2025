@@ -69,3 +69,28 @@
     width: 50%;
   }
 }
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .banner-img {
+    width: 80%;
+  }
+  .banner-content {
+    width: 90%;
+  }
+  .btn-primary {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .banner {
+    width: 90%;
+  }
+  .banner-content {
+    width: 50%;
+  }
+  .btn-primary {
+    width: 50%;
+  }
+}
