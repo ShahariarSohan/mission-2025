@@ -141,3 +141,12 @@
     padding: 20px;
   }
 }
+/* development section styles */
+.development-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.dev-image {
+  width: 60%;
+}
