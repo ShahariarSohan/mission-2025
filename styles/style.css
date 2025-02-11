@@ -1,7 +1,71 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yeseva+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
 .yeseva-one {
   font-family: "Yeseva One", serif;
 }
+/* shared styles */
 .poppins {
   font-family: "Poppins", serif;
+  color: rgb(62, 62, 62);
+}
+/* banner styles */
+.banner {
+  max-width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-content {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.banner-title {
+  font-size: 3.5rem;
+  color: rgb(51, 51, 51);
+}
+.mission-2025 {
+  color: rgb(255, 173, 90);
+}
+.btn-primary {
+  width: 30%;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  border-radius: 4px;
+  background: rgb(255, 89, 89);
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8;
+  padding: 12px;
+}
+.banner-img {
+  width: 40%;
+}
+.banner-img img {
+  width: 100%;
+}
+/* banner responsive styles */
+@media screen and (max-width: 576px) {
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .banner-img {
+    width: 100%;
+  }
+  .banner-content {
+    width: 90%;
+  }
+  .btn-primary {
+    width: 50%;
+  }
 }
