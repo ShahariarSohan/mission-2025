@@ -33,6 +33,8 @@
 .banner-title {
   font-size: 3.5rem;
   color: rgb(51, 51, 51);
+  border-left: 5px solid rgb(255, 89, 89);
+  padding-left: 10px;
 }
 .mission-2025 {
   color: rgb(255, 173, 90);
@@ -108,14 +110,21 @@
   color: rgb(255, 173, 90);
 }
 .mission-container {
-  margin: 0 auto;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 .card-image {
-  width: 100%;
+  width: 200px;
 }
+
 .card-content {
-  width: 30%;
+  padding: 20px;
+  font-size: 0.9rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  border-radius: 10px;
+  background: rgba(255, 89, 89, 0.1);
 }
