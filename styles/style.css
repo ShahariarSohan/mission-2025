@@ -128,3 +128,16 @@
   border-radius: 10px;
   background: rgba(255, 89, 89, 0.1);
 }
+/* mission section responsive styles */
+@media screen and (max-width: 576px) {
+  .mission-container {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .mission-container {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+}
