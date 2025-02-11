@@ -172,6 +172,7 @@
 @media screen and (max-width: 576px) {
   .development-container {
     flex-direction: column;
+    margin: 20px auto;
   }
   .primary-image {
     width: 90%;
@@ -183,6 +184,7 @@
 @media screen and (min-width: 577px) and (max-width: 768px) {
   .development-container {
     flex-direction: column;
+    margin: 20px auto;
   }
   .primary-image {
     width: 60%;
@@ -206,4 +208,30 @@
 
 .community-content {
   width: 60%;
+}
+
+/* global community responsive styles */
+@media screen and (max-width: 576px) {
+  .community-container {
+    flex-direction: column;
+    margin: 20px auto;
+  }
+  .primary-image {
+    width: 60%;
+  }
+  .primary-content {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .community-container {
+    flex-direction: column;
+    margin: 20px auto;
+  }
+  .primary-image {
+    width: 60%;
+  }
+  .primary-content {
+    width: 90%;
+  }
 }
