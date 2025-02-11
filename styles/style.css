@@ -15,29 +15,15 @@
   max-width: 1200px;
   margin: 0 auto;
 }
-/* banner styles */
-.banner {
-  height: auto;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.primary-title {
+  font-size: 2.2rem;
 }
-.banner-content {
+.primary-content {
   width: 40%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   gap: 20px;
-}
-.banner-title {
-  font-size: 3.5rem;
-  color: rgb(51, 51, 51);
-  border-left: 5px solid rgb(255, 89, 89);
-  padding-left: 10px;
-}
-.mission-2025 {
-  color: rgb(255, 173, 90);
 }
 .btn-primary {
   width: 30%;
@@ -53,11 +39,36 @@
   gap: 8;
   padding: 12px;
 }
+.primary-image {
+  width: 30%;
+}
+/* banner styles */
+.banner {
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-title {
+  font-size: 3.5rem;
+  color: rgb(51, 51, 51);
+  border-left: 5px solid rgb(255, 89, 89);
+  padding-left: 10px;
+}
+.mission-2025 {
+  color: rgb(255, 173, 90);
+}
+
 .banner-img {
   width: 40%;
 }
 .banner-img img {
   width: 100%;
+}
+.read-btn {
+  width: 40%;
 }
 /* banner responsive styles */
 @media screen and (max-width: 576px) {
@@ -67,7 +78,7 @@
   .banner-img {
     width: 100%;
   }
-  .banner-content {
+  .primary-content {
     width: 90%;
   }
   .btn-primary {
@@ -81,7 +92,7 @@
   .banner-img {
     width: 80%;
   }
-  .banner-content {
+  .primary-content {
     width: 90%;
   }
   .btn-primary {
@@ -92,7 +103,7 @@
   .banner {
     width: 90%;
   }
-  .banner-content {
+  .primary-content {
     width: 50%;
   }
   .btn-primary {
@@ -144,9 +155,50 @@
 /* development section styles */
 .development-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  margin: 50px auto;
 }
-.dev-image {
+
+.coding-image {
+  width: 100%;
+}
+
+.dev-content {
   width: 60%;
+}
+/* development section responsive styles */
+
+@media screen and (max-width: 576px) {
+  .development-container {
+    flex-direction: column;
+  }
+  .primary-image {
+    width: 90%;
+  }
+  .primary-content {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .development-container {
+    flex-direction: column;
+  }
+  .primary-image {
+    width: 60%;
+  }
+  .primary-content {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .development-container {
+    flex-direction: column;
+  }
+  .primary-image {
+    width: 60%;
+  }
+  .primary-content {
+    width: 90%;
+  }
 }
