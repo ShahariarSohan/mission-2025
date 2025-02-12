@@ -285,3 +285,23 @@
     width: 90%;
   }
 }
+/* footer styles */
+footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+  background: rgb(11, 13, 23);
+  color: rgb(255, 255, 255);
+  padding: 50px;
+}
+.footer-title {
+  font-size: 2.5rem;
+}
+.footer-2025 {
+  color: rgb(255, 89, 89);
+}
+.footer-subtitle {
+  font-size: 0.9rem;
+}
