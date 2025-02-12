@@ -274,7 +274,7 @@
   }
 }
 @media screen and (min-width: 577px) and (max-width: 768px) {
-  .application-container {
+  .application-content {
     flex-direction: column;
     margin: 20px auto;
   }
